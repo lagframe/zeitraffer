@@ -17,7 +17,7 @@ with open('config.json') as config_file:
     config = json.load(config_file)
 
 # set loglevel
-logging.basicConfig(format='%(levelname)s %(asctime)s %(message)s', filename='zeitraffer.log', encoding='UTF-8', level=getattr(logging, args.loglevel.upper()))
+logging.basicConfig(format='%(levelname)s %(asctime)s %(message)s', filename=config["logging_file"], encoding='UTF-8', level=getattr(logging, args.loglevel.upper()))
 
 # get filetype from string
 def get_filetype(string):

@@ -1,0 +1,6 @@
+{
+    "cams": [
+        {"folder": "cams/cam1", "url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"},
+        {"folder": "c:/tmp/cam2", "url": "https://www.python.org/static/img/python-logo.png"}
+    ]
+}

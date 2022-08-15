@@ -1,3 +1,9 @@
+# Project - specific
++TEMPLATE_config.json
+config.json
+*.log
+cams/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -13,7 +13,7 @@ parser.add_argument('-config', help='config file. See TEMPLATE_config.json for a
 args = parser.parse_args()
 
 # load config file
-with open('config.json') as config_file:
+with open(args.config) as config_file:
     config = json.load(config_file)
 
 # set loglevel

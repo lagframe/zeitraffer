@@ -1,6 +1,6 @@
 # Project - specific
 +TEMPLATE_config.json
-config.json
+*.json
 *.log
 cams/
 
